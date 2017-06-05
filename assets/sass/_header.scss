@@ -1,0 +1,60 @@
+body{
+  margin:0 auto;
+  font-family: sans-serif;
+  font-size:16px;
+  padding:10px;
+  header{
+    background-color: rgb(15, 31, 60);
+    padding:10px;
+    position:relative;
+    #logo{
+      display: inline-block;
+      vertical-align: 25%;
+      #logo-img{
+        width: 230px;
+      }
+    }
+    #menuBar-container{
+      display: inline-block;
+      margin: 20px 40px 20px 40px;
+      #menuBar{
+        display:inline-block;
+        position:relative;
+        .menuBar-lines{
+          border-bottom: 7px solid white;
+          width: 45px;
+          margin-bottom: 5px;
+          padding: 2px;
+        }
+      }
+    }
+    :hover  #menuBar-dropDown{
+      display:inline-block;
+    }
+    #menuBar-dropDown{
+      position: absolute;
+      border: 1.5px solid rgb(15, 31, 60);
+      top: 100%;
+      left:0%;
+      width:auto;
+      height: auto;
+      background-color: rgb(15, 31, 60);
+      display:none;
+      #menuBar-dropDown .menuBar-link{
+        color:white;
+      }
+      #menuBar-dropDown a:hover{
+        color:rgb(15, 31, 60);
+      }
+      #menuBar-dropDown ul {
+        margin: 0;
+        padding: 0;
+        #menuBar-dropDown li{
+          list-style: none;
+          padding:0;
+          margin:0;
+        }
+      }
+    }
+  }
+}

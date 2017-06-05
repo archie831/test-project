@@ -1,0 +1,66 @@
+body{
+  #section-left{
+    #article-secLeft{
+      #div-radioButton{
+        display: inline-block;
+        margin-bottom: 20px;
+        .radioButton-container{
+          border: 1.5px solid royalblue;
+          border-radius: 20px;
+          width: 75px;
+          display: inline-block;
+          padding: 5px 10px 5px 10px;
+          margin: 0;
+          position: relative;
+          .radioButton-innerContainer1 {
+            border: 1.5px solid royalblue;
+            border-radius: 20px;
+            width: 11px;
+            height: 11px;
+            padding: 5px;
+            display: inline-block;
+            margin: 0;
+            position: absolute;
+            top: 19%;
+            left: 10%;
+            .radioButton-innerContainer2{
+              display: inline-block;
+              margin: 0;
+              padding: 0;
+              background-color: royalblue;
+              width: 12px;
+              height: 12px;
+              border-radius: 20px;
+              position: absolute;
+              top: 22%;
+              left: 21%;
+              .radioButton{
+                display: inline-block;
+                margin: 0;
+                position: absolute;
+                top: 23%;
+                left: 23%;
+                visibility:hidden;
+              }
+            }
+          }
+          .radioButton-label{
+            display: inline-block;
+            margin-left: 35px;
+          }
+        }
+        .radioButton-container:hover{
+          border: 1.5px solid royalblue;
+          background-color: royalblue;
+          color:white;
+        }
+        .radioButton-container:hover .radioButton-innerContainer1{
+          border: 1.5px solid white;
+        }
+        .radioButton-container:hover .radioButton-innerContainer2 {
+          background-color: white;
+        }
+      }
+    }
+  }
+}

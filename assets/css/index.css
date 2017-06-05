@@ -1,0 +1,109 @@
+body {
+    background: rgb(90, 90, 90);
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    padding:10px;
+}
+
+/*======header========*/
+#main-header {
+    background: rgb(150, 150, 150);
+    border: black 2px solid;
+    margin-top: 10px;
+    padding: 10px;
+}
+.header {
+    background: white;
+    border: black 2px solid;
+    margin-top: 10px;
+    padding: 10px;
+}
+/*======section========*/
+.section-left {
+    background: rgb(150, 150, 150);
+    border: black 2px solid;
+    float:left;
+    width:25%;
+    margin-top: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.section-right{
+    background: rgb(150, 150, 150);
+    border: black 2px solid;
+    float:right;
+    width:74%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/*======footer========*/
+#main-footer{
+    background: rgb(150, 150, 150);
+    border: black 2px solid;
+    margin-top: 10px;
+
+    clear: both;
+    padding: 10px;
+}
+footer {
+    background: white;
+    border: black 2px solid;
+    margin-top: 10px;
+    padding: 10px;
+}
+#secRight-footer{
+    clear:both;
+}
+
+/*======nav========*/
+nav {
+    background: white;
+    border: black 2px solid;
+    margin-top: 10px;
+    padding:10px;
+}
+#nav-left{
+    padding-top: 267px;
+    padding-bottom: 267px;
+}
+/*=====paragragh=========*/
+p {
+    background: white;
+    border: black 2px solid;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+#secRight-par {
+    float:left;
+    width:64%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+/*======aside============*/
+#secRight-aside{
+    background: white;
+    border: black 2px solid;
+    float:right;
+    width: 35%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+article {
+    background: rgb(195, 195, 195);
+    border: black 2px solid;
+    margin-top: 10px;
+    padding: 10px;
+}
