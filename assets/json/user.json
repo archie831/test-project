@@ -1,0 +1,30 @@
+{
+  "archiepbaclay@gmail.com": {
+    "firstName": "Archie",
+    "lastName": "Baclay",
+    "joined": {
+      "month": "January",
+      "day": 12,
+      "year": 2017
+    }
+  },
+  "jpmorgan@gmail.com": {
+    "firstName": "jp",
+    "lastName": "morgan",
+    "joined": {
+      "month": "Febuary",
+      "day": 13,
+      "year": 2017
+    }
+  },
+  "webdevelopment@gmail.com": {
+    "firstName": "web",
+    "lastName": "development",
+    "joined": {
+      "month": "March",
+      "day": 14,
+      "year": 2017
+    }
+  }
+}
+
